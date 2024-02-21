@@ -254,12 +254,12 @@ highlight default link zigHexNumber zigNumber
 highlight default link zigOctNumber zigNumber
 highlight default link zigBinNumber zigNumber
 
-highlight default link zigBuiltinFn Statement
+highlight default link zigBuiltinFn Special
 highlight default link zigKeyword Keyword
 highlight default link zigType Type
 highlight default link zigCommentLine Comment
-highlight default link zigCommentLineDoc Comment
-highlight default link zigDummyVariable Comment
+highlight default link zigCommentLineDoc SpecialComment
+highlight default link zigDummyVariable Normal
 highlight default link zigTodo Todo
 highlight default link zigString String
 highlight default link zigStringDelimiter String
@@ -270,23 +270,23 @@ highlight default link zigMultilineStringDelimiter Delimiter
 highlight default link zigCharacterInvalid Error
 highlight default link zigCharacterInvalidUnicode zigCharacterInvalid
 highlight default link zigCharacter Character
-highlight default link zigEscape Special
-highlight default link zigEscapeUnicode zigEscape
+highlight default link zigEscape SpecialChar
+highlight default link zigEscapeUnicode SpecialChar
 highlight default link zigEscapeError Error
 highlight default link zigBoolean Boolean
-highlight default link zigNull Boolean
+highlight default link zigNull Constant
 highlight default link zigConstant Constant
 highlight default link zigNumber Number
 highlight default link zigArrowCharacter zigOperator
 highlight default link zigOperator Operator
 highlight default link zigStructure Structure
-highlight default link zigExecution Special
+highlight default link zigExecution Statement
 highlight default link zigMacro Macro
 highlight default link zigConditional Conditional
 highlight default link zigComparatorWord Keyword
 highlight default link zigRepeat Repeat
 highlight default link zigSpecial Special
-highlight default link zigVarDecl Function
+highlight default link zigVarDecl StorageClass
 highlight default link zigPreProc PreProc
 highlight default link zigException Exception
 
