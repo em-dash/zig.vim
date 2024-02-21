@@ -60,8 +60,7 @@ let s:zig_syntax_keywords = {
     \ ,                  "enum"
     \ ,                  "union"
     \ ,                  "error"]
-    \ , 'zigStructureClass': [
-    \ ,                  "packed"
+    \ , 'zigStructureClass': ["packed"
     \ ,                  "opaque"]
     \ , 'zigException': ["error"]
     \ , 'zigVarDecl': ["var"
