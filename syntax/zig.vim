@@ -59,7 +59,8 @@ let s:zig_syntax_keywords = {
     \ , 'zigStructure': ["struct"
     \ ,                  "enum"
     \ ,                  "union"
-    \ ,                  "error"
+    \ ,                  "error"]
+    \ , 'zigStructureClass': [
     \ ,                  "packed"
     \ ,                  "opaque"]
     \ , 'zigException': ["error"]
@@ -280,6 +281,7 @@ highlight default link zigNumber Number
 highlight default link zigArrowCharacter zigOperator
 highlight default link zigOperator Operator
 highlight default link zigStructure Structure
+highlight default link zigStructureClass StorageClass
 highlight default link zigExecution Statement
 highlight default link zigMacro Macro
 highlight default link zigConditional Conditional
